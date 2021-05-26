@@ -90,7 +90,7 @@ main {
   width: 35%;
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
-  top:61px;
+  top: 61px;
   padding: 15px;
   right: -45%;
   transition: 0.6s transform;
@@ -282,7 +282,7 @@ p.descripcion {
 }
 
 .iconLink.menuMobile {
-  color: #CDCDCD;
+  color: #cdcdcd;
 }
 
 .cardBottom h4 {
@@ -429,9 +429,12 @@ footer .col.uno {
     border-radius: 10px;
   }
 
-  h1,
-  h2 {
+  h1 {
     font-size: 4.6em;
+  }
+
+  h2 {
+    font-size: 2em;
   }
 
   .contenedor {
