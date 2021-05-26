@@ -25,20 +25,17 @@ function ocultarBottom(e) {
     })
 }
 
-/*
-const cardFront = document.getElementsByClassName('cardFront');
-let arrayFront = [...cardFront];
-const cardBottom = document.getElementsByClassName('cardBottom');
-let arrayBottom = [...cardBottom];
-arrayFront.map(item => item.addEventListener("mouseover", mostrarBottom));
-arrayBottom.map(item => item.addEventListener("mouseout", mostrarBottom));
 
-function mostrarBottom(e) {
-    if (e.type == "mouseover") {
-        e.target.parentNode.classList.add('showBottom');
-    } 
-    if (e.type == "mouseout") {
-        e.target.parentNode.classList.remove('showBottom');
-    } 
+
+const botonMenu = document.getElementById('menuMobile') 
+const listaMenu = document.getElementById('listaMenu') 
+
+botonMenu.addEventListener("click", mostrarMenuMobile)
+
+
+function mostrarMenuMobile() {
+    listaMenu.classList.toggle('showMenu')
 }
- */
+
+
+
