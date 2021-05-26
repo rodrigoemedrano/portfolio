@@ -259,14 +259,13 @@ p.descripcion {
   height: 0px;
   transition: height 1s ease-in, visibility 1s ease-in;
   bottom: 0px;
-  /*transform: rotateX(-90deg) translateZ(130px);*/
-  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
-  border-radius: 15px 15px 0 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  
 }
 
 .show {
   visibility: visible;
-  height:  200px; 
+  height:  260px; 
   bottom: 0px;
 }
 
@@ -278,44 +277,54 @@ p.descripcion {
   position: absolute;
   bottom: 15px;
   left: 50%;
-  color: #000;
   font-size: 1.8em;
   cursor: pointer;
   margin-left: -12px;
 }
-
-.ocultar {
+.mostrar.black {
   color: #000;
-  font-size: 1.8em;
-  cursor: pointer;
-  margin-left: 50%;
 }
 
-.cardBottom p, .cardBottom a {
+.mostrar.white {
+  color: #fff;
+}
+
+.ocultar {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  font-size: 1.8em;
+  cursor: pointer;
+  left: 50%;
+  margin-left: -12px;
+}
+
+.cardBottom p {
   padding: 0px;
   margin: 8px 0;
   display: block;
-  font-size: 0.8em;
+  font-size: 0.7em;
   line-height: 0.9em;
-  color: #222;
+  color: #fff;
 }
 
 .cardBottom a {
   font-weight: 600;
   font-style: italic;
-
+  color: #fff;
 }
 
 .iconItem, .iconLink {
   font-weight: 600;
   font-size: 1.5em;
   vertical-align: middle;
+  color: #fff;
 }
 
 .cardBottom h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   
 }
 
@@ -428,4 +437,12 @@ footer .col.dos {
 
 .piccolino {
   background: url(../img/proyectos/piccolino.png) no-repeat;
+}
+
+.zaffiro {
+  background: url(../img/proyectos/zaffiro.png) no-repeat;
+}
+
+.xandar {
+  background: url(../img/proyectos/xandar.png) no-repeat;
 }
